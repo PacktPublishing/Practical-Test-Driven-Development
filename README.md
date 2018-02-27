@@ -1,10 +1,14 @@
-# AMP: Building Accelerated Mobile Pages
-This is the code repository for [AMP: Building Accelerated Mobile Pages](https://www.packtpub.com/web-development/amp-building-accelerated-mobile-pages?utm_source=github&utm_medium=repository&utm_campaign=9781786467317), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+# Practical Test-Driven Development using C# 7
+This is the code repository for [Practical Test-Driven Development using C# 7](https://www.packtpub.com/web-development/practical-test-driven-development-using-c-7?utm_source=github&utm_medium=repository&utm_campaign=9781788398787), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-Google introduced the Accelerated Mobile Pages (AMP) project to give mobile users lightning-fast response times when accessing web pages on mobile devices. AMP delivers great user experiences by providing a framework for optimizing web pages that otherwise would take much longer to load on a mobile platform.
+Test-Driven Development (TDD) is a methodology that helps you to write as little as code as possible to satisfy software requirements, and ensures that what you've written does what it's supposed to do. If you're looking for a practical resource on Test-Driven Development this is the book for you. You've found a practical end-to-end guide that will help you implement Test-Driven Techniques for your software development projects.
 
-This book shows how to solve page performance issues using the mobile web technologies available today. You will learn how to build instant-loading web pages, and have them featured more prominently on Google searches. If you want your website to succeed on mobile, if you care about SEO, and if you want to stay competitive, then this book is for you! 
-You will go on a mobile web development journey that demonstrates with concrete examples how to build lightning-fast pages that will keep your visitors on-site and happy. This journey begins by showing how to build a simple blog article-style web page using AMP. As new concepts are introduced this page is gradually refined until you will have the skills and confidence to build a variety of rich and interactive mobile web pages. These will include e-commerce product pages, interactive forms and menus, maps and commenting systems, and even Progressive Web Apps.
+You will learn from industry standard patterns and practices, and shift from a conventional approach to a modern and efficient software testing approach in C# and JavaScript. This book starts with the basics of TDD and the components of a simple unit test. Then we look at setting up the testing framework so that you can easily run your tests in your development environment. You will then see the importance of defining and testing boundaries, abstracting away third-party code (including the .NET Framework), and working with different types of test double such as spies, mocks, and fakes.
+
+Moving on, you will learn how to think like a TDD developer when it comes to application development. Next, you'll focus on writing tests for new/changing requirements and covering newly discovered bugs, along with how to test JavaScript applications and perform integration testing. You’ll also learn how to identify code that is inherently un-testable, and identify some of the major problems with legacy applications that weren’t written with testability in mind.
+
+By the end of the book, you’ll have all the TDD skills you'll need and you’ll be able to re-enter the world as a TDD expert!
+
 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
@@ -13,30 +17,25 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 ```
-<div id="confirm">Are you sure you want to continue?</div>
-<a on="tap:confirm.hide">Cancel</a> <a href="confirm-page.html">Confirm</a>
+"babel": {
+   "presets": [
+     "react-app"
+   ]
+ },
 ```
 
-The requirements for this book are straightforward for AMP, and are similar for every chapter:
+Readers wanting to follow along with the examples in the book should have the following:
 
-Webserver such as Apache, NGINX, or NodeJS
-Web browser (such as Chrome or Firefox)
-Text/HTML editor (such as SublimeText)
-A web-connected mobile device, such as an Android or iOS phone, is recommended but not required
-
-
-Additionally, some examples require the following. Where required, this is noted along with the example:
-
-HTTPS.
-Server-side technology--some examples require a server-side component to deliver data. PHP was chosen for its wide availability, but any server-side language could be used.
-Access to an alternative domain--this can simply be a domain alias that points to the same application directory on your server.
+An intermediate understanding of C# and/or JavaScript
+Prior exposure to React will be beneficial though not required
+Familiarity with N-tier architecture
 
 ## Related Products
-* [Building Mobile Applications Using Kendo UI Mobile and ASP.NET Web API](https://www.packtpub.com/application-development/building-mobile-applications-using-kendo-ui-mobile-and-aspnet-web-api?utm_source=github&utm_medium=repository&utm_campaign=9781782160922)
+* [Test-Driven iOS Development with Swift 3](https://www.packtpub.com/application-development/test-driven-ios-development-swift-3?utm_source=github&utm_medium=repository&utm_campaign=9781787129078)
 
-* [Building a Single Page Web Application with Knockout.js [Video]](https://www.packtpub.com/web-development/building-single-page-web-application-knockoutjs-video?utm_source=github&utm_medium=repository&utm_campaign=9781783284054)
+* [Angular Test-Driven Development - Second Edition](https://www.packtpub.com/web-development/angular-test-driven-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781786465474)
 
-* [Building Single-page Web Apps with Meteor](https://www.packtpub.com/web-development/building-single-page-web-apps-meteor?utm_source=github&utm_medium=repository&utm_campaign=9781783988129)
+* [Test Driven Web Application Development with Ember [Video]](https://www.packtpub.com/web-development/test-driven-web-application-development-ember-video?utm_source=github&utm_medium=repository&utm_campaign=9781788393706)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
