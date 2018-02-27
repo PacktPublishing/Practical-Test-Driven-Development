@@ -36,6 +36,3 @@ Familiarity with N-tier architecture
 * [Angular Test-Driven Development - Second Edition](https://www.packtpub.com/web-development/angular-test-driven-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781786465474)
 
 * [Test Driven Web Application Development with Ember [Video]](https://www.packtpub.com/web-development/test-driven-web-application-development-ember-video?utm_source=github&utm_medium=repository&utm_campaign=9781788393706)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
